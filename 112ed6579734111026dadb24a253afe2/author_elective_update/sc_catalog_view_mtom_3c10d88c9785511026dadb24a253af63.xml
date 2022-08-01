@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Catalog">59ffc88c9785511026dadb24a253afe9</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 10:07:14</sys_created_on>
+        <sys_id>3c10d88c9785511026dadb24a253af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog.catalog_catalog</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_catalog">3410d88c9785511026dadb24a253af62</sys_portal_page>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_3c10d88c9785511026dadb24a253af63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 10:07:14</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sc_catalog_view_mtom_3c10d88c9785511026dadb24a253af63</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Catalog">59ffc88c9785511026dadb24a253afe9</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 10:07:14</sys_created_on><sys_id>3c10d88c9785511026dadb24a253af63</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Catalog.catalog_catalog</sys_name><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_portal_page display_value="catalog_catalog">3410d88c9785511026dadb24a253af62</sys_portal_page><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sc_catalog_view_mtom_3c10d88c9785511026dadb24a253af63</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 10:07:14</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-1848230316</payload_hash>
+        <record_name>Catalog.catalog_catalog</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 10:07:14</sys_created_on>
+        <sys_id>bc109c8c9785511026dadb24a253af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823f1ff2e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 10:07:14</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>b4109c8c6e855110fda283d284360d75</update_guid>
+        <update_guid_history>b4109c8c6e855110fda283d284360d75:-1848230316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Catalog.catalog_catalog">db31d4cc9785511026dadb24a253af3e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 10:12:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>228b44c0eab84c60af2b03a5b0cb4400</sys_id>
+        <sys_metadata>3c10d88c9785511026dadb24a253af63</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Catalog.catalog_catalog</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent display_value="Catalog">59ffc88c9785511026dadb24a253afe9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_3c10d88c9785511026dadb24a253af63</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_3c10d88c9785511026dadb24a253af63">bc109c8c9785511026dadb24a253af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 10:12:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

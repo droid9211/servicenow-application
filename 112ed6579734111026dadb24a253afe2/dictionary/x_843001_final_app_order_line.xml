@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Order line" max_length="40" name="x_843001_final_app_order_line" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="total" max_length="40" name="total" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total price" max_length="40" name="total_price" type="string"/>
+        <element label="Product" max_length="32" name="u_product_order" reference="x_843001_final_app_product" type="reference" use_dependent_field="true"/>
+        <element display="true" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <index name="index">
+            <element name="u_product_order"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

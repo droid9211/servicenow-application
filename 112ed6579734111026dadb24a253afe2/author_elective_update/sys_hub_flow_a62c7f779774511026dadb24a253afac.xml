@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_order_task</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create order task</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:40:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a62c7f779774511026dadb24a253afac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create order task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_hub_flow_a62c7f779774511026dadb24a253afac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:40:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=a62c7f779774511026dadb24a253afac"/>
+    <sys_variable_value action="DELETE" query="document_key=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=a62c7f779774511026dadb24a253afac"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=a62c7f779774511026dadb24a253afac^sys_idNOT IN2a2c7f779774511026dadb24a253afae"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>a62c7f779774511026dadb24a253afac</id>
+        <name>Create order task</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:40:15</sys_created_on>
+        <sys_id>2a2c7f779774511026dadb24a253afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:40:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=2a2c7f779774511026dadb24a253afae"/>
+    <sys_hub_flow_input action="DELETE" query="model=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_flow_output action="DELETE" query="model=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_action_instance action="DELETE" query="flow=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=a62c7f779774511026dadb24a253afac"/>
+    <sys_hub_flow_variable action="DELETE" query="model=a62c7f779774511026dadb24a253afac"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_a62c7f779774511026dadb24a253afac"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_a62c7f779774511026dadb24a253afac"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_a62c7f779774511026dadb24a253afac"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_a62c7f779774511026dadb24a253afac"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=a62c7f779774511026dadb24a253afac"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=a62c7f779774511026dadb24a253afac"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_hub_flow_a62c7f779774511026dadb24a253afac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>create_order_task</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Create order task</name><natlang/><outputs/><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 08:40:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a62c7f779774511026dadb24a253afac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create order task</sys_name><sys_overrides/><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sys_hub_flow_a62c7f779774511026dadb24a253afac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 08:40:15</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=a62c7f779774511026dadb24a253afac"/><sys_variable_value action="delete_multiple" query="document_key=a62c7f779774511026dadb24a253afac"/><sys_hub_trigger_instance action="delete_multiple" query="flow=a62c7f779774511026dadb24a253afac"/><sys_hub_flow_stage action="delete_multiple" query="flow=a62c7f779774511026dadb24a253afac"/><sys_flow_cat_variable_model action="delete_multiple" query="id=a62c7f779774511026dadb24a253afac^sys_idNOT IN2a2c7f779774511026dadb24a253afae"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>a62c7f779774511026dadb24a253afac</id><name>Create order task</name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 08:40:15</sys_created_on><sys_id>2a2c7f779774511026dadb24a253afae</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 08:40:15</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2a2c7f779774511026dadb24a253afae"/><sys_hub_flow_input action="delete_multiple" query="model=a62c7f779774511026dadb24a253afac"/><sys_hub_flow_output action="delete_multiple" query="model=a62c7f779774511026dadb24a253afac"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=a62c7f779774511026dadb24a253afac"/><sys_hub_action_instance action="delete_multiple" query="flow=a62c7f779774511026dadb24a253afac"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=a62c7f779774511026dadb24a253afac"/><sys_hub_flow_logic action="delete_multiple" query="flow=a62c7f779774511026dadb24a253afac"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=a62c7f779774511026dadb24a253afac"/><sys_hub_flow_variable action="delete_multiple" query="model=a62c7f779774511026dadb24a253afac"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a62c7f779774511026dadb24a253afac"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a62c7f779774511026dadb24a253afac"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a62c7f779774511026dadb24a253afac"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a62c7f779774511026dadb24a253afac"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=a62c7f779774511026dadb24a253afac"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=a62c7f779774511026dadb24a253afac"/></record_update>]]></payload>
+        <payload_hash>1764884062</payload_hash>
+        <record_name>Create order task</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:40:15</sys_created_on>
+        <sys_id>b62cb77b9774511026dadb24a253afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823ed0512f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:40:15</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>be2cb77bed745110a091c45df3e6b2d7</update_guid>
+        <update_guid_history>be2cb77bed745110a091c45df3e6b2d7:1764884062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 10:13:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>65120c8a736b48369cd8d7c98367e0a4</sys_id>
+        <sys_metadata>a62c7f779774511026dadb24a253afac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create order task</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_a62c7f779774511026dadb24a253afac</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_a62c7f779774511026dadb24a253afac">b62cb77b9774511026dadb24a253afd8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 10:13:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

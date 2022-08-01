@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_final_price" label="Final Price" language="en" table="x_843001_final_app_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_final_price</element>
+            <help/>
+            <hint/>
+            <label>Final Price</label>
+            <language>en</language>
+            <name>x_843001_final_app_order</name>
+            <plural>Final Prices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-27 19:56:36</sys_created_on>
+            <sys_id>02f69ac097cd511026dadb24a253af39</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Final Price</sys_name>
+            <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+            <sys_update_name>sys_documentation_x_843001_final_app_order_u_final_price_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-27 19:56:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

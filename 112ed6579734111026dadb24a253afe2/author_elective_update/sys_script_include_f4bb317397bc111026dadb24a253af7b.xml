@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_843001_final_app.TotalPrice</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TotalPrice</name>
+        <script><![CDATA[var TotalPrice = Class.create();
+TotalPrice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Price: function() {
+        var productsArray = current.u_related_order_lines;
+        var arr = this.getParameter('sysparm_productsArray');
+		var products = arr.split(',');
+		var total = 0;
+		for(var i = 0; i <= orders.length; i++) {
+			var bT = new GlideRecord('u_product_order');
+			bT.addQuery('sys_id', products[i]);
+			bT.query();
+			while (bT.next()) {
+				total += parseInt(bT.u_price);
+			}
+		}
+    },
+    type: 'TotalPrice'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 23:26:09</sys_created_on>
+        <sys_id>f4bb317397bc111026dadb24a253af7b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>TotalPrice</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_script_include_f4bb317397bc111026dadb24a253af7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 23:49:36</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_script_include_f4bb317397bc111026dadb24a253af7b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_843001_final_app.TotalPrice&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;TotalPrice&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var TotalPrice = Class.create();
+TotalPrice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    Price: function() {
+        var productsArray = current.u_related_order_lines;
+        var arr = this.getParameter('sysparm_productsArray');
+		var products = arr.split(',');
+		var total = 0;
+		for(var i = 0; i &lt;= orders.length; i++) {
+			var bT = new GlideRecord('u_product_order');
+			bT.addQuery('sys_id', products[i]);
+			bT.query();
+			while (bT.next()) {
+				total += parseInt(bT.u_price);
+			}
+		}
+    },
+    type: 'TotalPrice'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-26 23:26:09&lt;/sys_created_on&gt;&lt;sys_id&gt;f4bb317397bc111026dadb24a253af7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;TotalPrice&lt;/sys_name&gt;&lt;sys_package display_value="Final Application" source="x_843001_final_app"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Final Application"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_f4bb317397bc111026dadb24a253af7b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-26 23:49:36&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2121511041</payload_hash>
+        <record_name>TotalPrice</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 23:49:36</sys_created_on>
+        <sys_id>a9b2c6f797bc111026dadb24a253af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823cea7e2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 23:49:36</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>61b2c6f715bc11107c157dca96eed234</update_guid>
+        <update_guid_history>61b2c6f715bc11107c157dca96eed234:-2121511041,24affd7315bc11101e9c502d49c97579:-1443186446,81dd31f32cbc1110d58c801ce4496ee0:-656300562,8b5d3d731fbc11107f4ddd0c78955fa5:-808823436,355d7d73b1bc11101c94665c0038cf1e:927542951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 00:21:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1d3d3db9dd2a4ef8a888774879df6621</sys_id>
+        <sys_metadata>f4bb317397bc111026dadb24a253af7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TotalPrice</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sys_script_include_f4bb317397bc111026dadb24a253af7b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_f4bb317397bc111026dadb24a253af7b">a9b2c6f797bc111026dadb24a253af34</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 00:21:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

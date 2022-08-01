@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_843001_final_app_order_line">x_843001_final_app_order_line</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>ORD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:21:25</sys_created_on>
+        <sys_id>d96e80b797f4111026dadb24a253afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORD</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_number_d96e80b797f4111026dadb24a253afd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:21:25</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_number_d96e80b797f4111026dadb24a253afd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_843001_final_app_order_line">x_843001_final_app_order_line</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>ORD</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-26 15:21:25</sys_created_on><sys_id>d96e80b797f4111026dadb24a253afd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ORD</sys_name><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sys_number_d96e80b797f4111026dadb24a253afd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-26 15:21:25</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1852890835</payload_hash>
+        <record_name>ORD</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:21:25</sys_created_on>
+        <sys_id>d16e80b797f4111026dadb24a253afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823b193cc40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:21:25</sys_updated_on>
+        <type>Number</type>
+        <update_guid>d96e80b751f41110b8e03e020fb0e0da</update_guid>
+        <update_guid_history>d96e80b751f41110b8e03e020fb0e0da:1852890835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:23:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>01065d7ea43d4c1facd155e3806432c1</sys_id>
+        <sys_metadata>d96e80b797f4111026dadb24a253afd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORD</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent display_value="">cf1e883797f4111026dadb24a253af78</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sys_number_d96e80b797f4111026dadb24a253afd3</sys_update_name>
+        <sys_update_version display_value="sys_number_d96e80b797f4111026dadb24a253afd3">d16e80b797f4111026dadb24a253afdb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 15:23:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

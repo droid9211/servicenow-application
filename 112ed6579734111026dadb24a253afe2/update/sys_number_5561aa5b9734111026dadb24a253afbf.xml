@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_843001_final_app_country">x_843001_final_app_country</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CTY</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 12:46:42</sys_created_on>
+        <sys_id>5561aa5b9734111026dadb24a253afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CTY</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_number_5561aa5b9734111026dadb24a253afbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 12:46:42</sys_updated_on>
+    </sys_number>
+</record_update>

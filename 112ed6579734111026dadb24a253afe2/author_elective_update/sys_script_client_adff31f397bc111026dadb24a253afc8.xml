@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_related_order_lines</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate total price</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var productsSelected = g_form.getValue('u_related_order_lines');
+	var priceA = new GlideAjax('TotalPrice');
+	priceA.addParam('sysparm_name', 'Price');
+	priceA.addParam('sysparm_productsArray', productsSelected);
+	priceA.getXML(setPrice);
+	
+	function setPrice(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('total_price', answer);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 23:45:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>adff31f397bc111026dadb24a253afc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Calculate total price</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_script_client_adff31f397bc111026dadb24a253afc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 23:49:32</sys_updated_on>
+        <table>x_843001_final_app_order</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_script_client_adff31f397bc111026dadb24a253afc8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_related_order_lines&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Calculate total price&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var productsSelected = g_form.getValue('u_related_order_lines');
+	var priceA = new GlideAjax('TotalPrice');
+	priceA.addParam('sysparm_name', 'Price');
+	priceA.addParam('sysparm_productsArray', productsSelected);
+	priceA.getXML(setPrice);
+	
+	function setPrice(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('total_price', answer);
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-26 23:45:37&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;adff31f397bc111026dadb24a253afc8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate total price&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Final Application" source="x_843001_final_app"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Final Application"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_adff31f397bc111026dadb24a253afc8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-26 23:49:32&lt;/sys_updated_on&gt;&lt;table&gt;x_843001_final_app_order&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-558968683</payload_hash>
+        <record_name>Calculate total price</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 23:49:32</sys_created_on>
+        <sys_id>20b24af797bc111026dadb24a253afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823cea6e280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 23:49:32</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e4b24af717bc111057b4c653bea65ea7</update_guid>
+        <update_guid_history>e4b24af717bc111057b4c653bea65ea7:-558968683,c7c102f3abbc1110fbbcf50edb2b98cf:1064196994</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 08:12:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>01217aac0e8b4e3881a346cf827d52a1</sys_id>
+        <sys_metadata>adff31f397bc111026dadb24a253afc8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate total price</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent display_value="Order">7740d43b97f4111026dadb24a253afa0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sys_script_client_adff31f397bc111026dadb24a253afc8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_adff31f397bc111026dadb24a253afc8">20b24af797bc111026dadb24a253afa8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 08:12:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

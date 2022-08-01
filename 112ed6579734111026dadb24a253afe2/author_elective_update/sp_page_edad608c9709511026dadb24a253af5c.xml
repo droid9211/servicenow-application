@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 12:16:27</sys_created_on>
+        <sys_id>edad608c9709511026dadb24a253af5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sp_page_edad608c9709511026dadb24a253af5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 12:16:27</sys_updated_on>
+        <title>home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=edad608c9709511026dadb24a253af5c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sp_page_edad608c9709511026dadb24a253af5c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>home</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 12:16:27</sys_created_on><sys_id>edad608c9709511026dadb24a253af5c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>home</sys_name><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sp_page_edad608c9709511026dadb24a253af5c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 12:16:27</sys_updated_on><title>home</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=edad608c9709511026dadb24a253af5c"/></record_update>]]></payload>
+        <payload_hash>500255894</payload_hash>
+        <record_name>home</record_name>
+        <reverted_from/>
+        <source>b30068009709511026dadb24a253af75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 12:16:27</sys_created_on>
+        <sys_id>a9ad608c9709511026dadb24a253af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823f963ff50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 12:16:27</sys_updated_on>
+        <type>Page</type>
+        <update_guid>a1ad608c6a095110e8133c92ae4d4f5f</update_guid>
+        <update_guid_history>a1ad608c6a095110e8133c92ae4d4f5f:500255894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="home">0f5f4ac8978d511026dadb24a253afa8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 19:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>cd9ee502489c4e68ad16e715f0c0b1e4</sys_id>
+        <sys_metadata>edad608c9709511026dadb24a253af5c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sp_page_edad608c9709511026dadb24a253af5c</sys_update_name>
+        <sys_update_version display_value="sp_page_edad608c9709511026dadb24a253af5c">a9ad608c9709511026dadb24a253af5f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 19:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

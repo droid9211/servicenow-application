@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref display_value="Hardware">760bdec497cd511026dadb24a253af86</published_ref>
+        <question display_value="Category">da4b960897cd511026dadb24a253af1b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 20:15:28</sys_created_on>
+        <sys_id>5e4b960897cd511026dadb24a253af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>question_choice_5e4b960897cd511026dadb24a253af39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 20:15:28</sys_updated_on>
+        <text>Hardware</text>
+        <value>u_hardware</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5e4b960897cd511026dadb24a253af39"/>
+</record_update>

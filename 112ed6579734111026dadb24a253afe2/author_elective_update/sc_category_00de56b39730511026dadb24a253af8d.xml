@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware Asset">651395bc53231300e321ddeeff7b1221</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 01:53:26</sys_created_on>
+        <sys_id>00de56b39730511026dadb24a253af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sc_category_00de56b39730511026dadb24a253af8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 01:53:26</sys_updated_on>
+        <title>Hardware</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=00de56b39730511026dadb24a253af8d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sc_category_00de56b39730511026dadb24a253af8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Hardware Asset">651395bc53231300e321ddeeff7b1221</parent><roles/><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 01:53:26</sys_created_on><sys_id>00de56b39730511026dadb24a253af8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware</sys_name><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sc_category_00de56b39730511026dadb24a253af8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 01:53:26</sys_updated_on><title>Hardware</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=00de56b39730511026dadb24a253af8d"/></record_update>]]></payload>
+        <payload_hash>-1531711334</payload_hash>
+        <record_name>Hardware</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 01:53:26</sys_created_on>
+        <sys_id>270f5ab39730511026dadb24a253af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823d5bdd910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 01:53:26</sys_updated_on>
+        <type>Category</type>
+        <update_guid>2f0f5ab3fa3051107712450900facd82</update_guid>
+        <update_guid_history>2f0f5ab3fa3051107712450900facd82:-1531711334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware">56cf96f39730511026dadb24a253af24</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 01:56:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>5899ff841c1e487c865f7863e82c2e44</sys_id>
+        <sys_metadata>00de56b39730511026dadb24a253af8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sc_category_00de56b39730511026dadb24a253af8d</sys_update_name>
+        <sys_update_version display_value="sc_category_00de56b39730511026dadb24a253af8d">270f5ab39730511026dadb24a253af83</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 01:56:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

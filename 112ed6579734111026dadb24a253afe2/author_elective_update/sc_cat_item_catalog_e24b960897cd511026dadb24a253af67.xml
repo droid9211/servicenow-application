@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Final app">1e4b56c497cd511026dadb24a253aff5</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 20:15:28</sys_created_on>
+        <sys_id>e24b960897cd511026dadb24a253af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Final app</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_e24b960897cd511026dadb24a253af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 20:15:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sc_cat_item_catalog_e24b960897cd511026dadb24a253af67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Final app">1e4b56c497cd511026dadb24a253aff5</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-27 20:15:28</sys_created_on><sys_id>e24b960897cd511026dadb24a253af67</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Final app</sys_name><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sc_cat_item_catalog_e24b960897cd511026dadb24a253af67</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-27 20:15:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-319445482</payload_hash>
+        <record_name>Service Catalog.Final app</record_name>
+        <reverted_from/>
+        <source>b30068009709511026dadb24a253af75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 20:15:28</sys_created_on>
+        <sys_id>ee4b960897cd511026dadb24a253af69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182414cce890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 20:15:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>264b96084bcd5110ab182dd5be5cee69</update_guid>
+        <update_guid_history>264b96084bcd5110ab182dd5be5cee69:-319445482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Final app">85055ad99741511026dadb24a253af14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 17:00:29</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>049101e54d1745729fefcdbb7032c404</sys_id>
+        <sys_metadata>e24b960897cd511026dadb24a253af67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Final app</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_e24b960897cd511026dadb24a253af67</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_e24b960897cd511026dadb24a253af67">ee4b960897cd511026dadb24a253af69</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-31 17:00:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

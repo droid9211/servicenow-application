@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Order" max_length="40" name="x_843001_final_app_order" sizeclass="6" type="collection">
+        <element label="Address" max_length="32" name="u_customer_address" reference="x_843001_final_app_address" table_reference="true" type="reference" use_dependent_field="true"/>
+        <element label="Customer" max_length="32" name="u_customer_order" reference="x_843001_final_app_customer" table_reference="true" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Final Price" max_length="40" name="u_final_price" type="string"/>
+        <element default="0" label="Final price" max_length="40" name="u_float_2" type="float"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Related order lists" max_length="1024" name="u_glide_list_1" reference="x_843001_final_app_order_line" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Related of order lines" max_length="32" name="u_related_of_order_lines" reference="x_843001_final_app_order_line" type="reference"/>
+        <element attributes="encode_utf8=false" dependent="number" dependent_on_field="number" label="Related order" max_length="32" name="u_related_order" reference="x_843001_final_app_order_line" type="reference" use_dependent_field="true"/>
+        <element label="Related  order-lines" max_length="4000" name="u_related_order_lines" reference="x_843001_final_app_order_line" table_reference="true" type="glide_list"/>
+    </element>
+</database>

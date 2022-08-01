@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description> for each product</description>
+        <field>u_final_price</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Sum of price quantity</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    if (newValue != oldValue && newValue != '') {
+
+
+
+        var f1 = g_form.getValue('u_related_order_lines'); // give quantity name
+
+        var f2 = g_form.getValue('u_price'); //give value name
+
+        if (f1 != '' && f2 != '') {
+
+            g_form.setValue('u_final_price', parseInt(f1) * parseInt(f2)); //give total name
+
+        }
+
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 15:55:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7b8514bf97f4111026dadb24a253af21</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sum of price quantity</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_script_client_7b8514bf97f4111026dadb24a253af21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 21:31:33</sys_updated_on>
+        <table>x_843001_final_app_order</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sys_script_client_7b8514bf97f4111026dadb24a253af21</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt; for each product&lt;/description&gt;&lt;field&gt;u_final_price&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Sum of price quantity&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    if (newValue != oldValue &amp;&amp; newValue != '') {
+
+
+
+        var f1 = g_form.getValue('u_related_order_lines'); // give quantity name
+
+        var f2 = g_form.getValue('u_price'); //give value name
+
+        if (f1 != '' &amp;&amp; f2 != '') {
+
+            g_form.setValue('u_final_price', parseInt(f1) * parseInt(f2)); //give total name
+
+        }
+
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-26 15:55:50&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7b8514bf97f4111026dadb24a253af21&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sum of price quantity&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Final Application" source="x_843001_final_app"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Final Application"&gt;112ed6579734111026dadb24a253afe2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7b8514bf97f4111026dadb24a253af21&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-26 21:31:33&lt;/sys_updated_on&gt;&lt;table&gt;x_843001_final_app_order&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>145084917</payload_hash>
+        <record_name>Sum of price quantity</record_name>
+        <reverted_from/>
+        <source>912ed6579734111026dadb24a253afe4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 21:31:33</sys_created_on>
+        <sys_id>9313293b973c111026dadb24a253af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823c6c1a150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 21:31:33</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>5b13293b683c11100315b86650758581</update_guid>
+        <update_guid_history>5b13293b683c11100315b86650758581:145084917,59b2253b9e3c11104f340e1905cdf675:-193789272,1146147f5df411103259d623fa12f254:1902965832</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 21:42:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3942b1f754884e9288852d6ab15f2401</sys_id>
+        <sys_metadata>7b8514bf97f4111026dadb24a253af21</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sum of price quantity</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent display_value="Order">7740d43b97f4111026dadb24a253afa0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sys_script_client_7b8514bf97f4111026dadb24a253af21</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7b8514bf97f4111026dadb24a253af21">9313293b973c111026dadb24a253af82</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 21:42:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

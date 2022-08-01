@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_product_image_1" label="Product Image 1" language="en" table="x_843001_final_app_product">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_product_image_1</element>
+            <help/>
+            <hint/>
+            <label>Product Image 1</label>
+            <language>en</language>
+            <name>x_843001_final_app_product</name>
+            <plural>Product Image 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-26 15:12:58</sys_created_on>
+            <sys_id>a17c4cf397f4111026dadb24a253af72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Product Image 1</sys_name>
+            <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+            <sys_update_name>sys_documentation_x_843001_final_app_product_u_product_image_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-26 15:12:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

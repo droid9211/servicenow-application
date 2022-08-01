@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a8a266599781511026dadb24a253afba</sp_column>
+        <sp_widget display_value="HRM Catalog Item">9e0a0e9373a75300c629e1e54cf6a7cd</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 18:15:54</sys_created_on>
+        <sys_id>bd46e65d9781511026dadb24a253afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sp_instance_bd46e65d9781511026dadb24a253afcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-31 18:15:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=bd46e65d9781511026dadb24a253afcd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Final Application">112ed6579734111026dadb24a253afe2</application>
+        <file_path/>
+        <instance_id>bf75c4d4dbbf819452dd2f17d4961915</instance_id>
+        <instance_name>dev128500</instance_name>
+        <name>sp_instance_bd46e65d9781511026dadb24a253afcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">a8a266599781511026dadb24a253afba</sp_column><sp_widget display_value="HRM Catalog Item">9e0a0e9373a75300c629e1e54cf6a7cd</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-31 18:15:54</sys_created_on><sys_id>bd46e65d9781511026dadb24a253afcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package><sys_policy/><sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope><sys_update_name>sp_instance_bd46e65d9781511026dadb24a253afcd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-31 18:15:54</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=bd46e65d9781511026dadb24a253afcd"/></record_update>]]></payload>
+        <payload_hash>886590564</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>b30068009709511026dadb24a253af75</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 18:15:54</sys_created_on>
+        <sys_id>39462a5d9781511026dadb24a253afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1825578c4d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-31 18:15:54</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>71462a5dbf81511013b13ba39b7882c8</update_guid>
+        <update_guid_history>71462a5dbf81511013b13ba39b7882c8:886590564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a346665d9781511026dadb24a253afe8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-31 18:16:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1cfd8d07227643e886a2e14941237210</sys_id>
+        <sys_metadata>bd46e65d9781511026dadb24a253afcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_scope_delete display_value="">5c4f60e8c4a741e8a817c07fc0c10040</sys_scope_delete>
+        <sys_update_name>sp_instance_bd46e65d9781511026dadb24a253afcd</sys_update_name>
+        <sys_update_version display_value="sp_instance_bd46e65d9781511026dadb24a253afcd">39462a5d9781511026dadb24a253afc8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-31 18:16:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

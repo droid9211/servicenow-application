@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total" label="total" language="en" table="x_843001_final_app_order_line">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total</element>
+            <help/>
+            <hint/>
+            <label>total</label>
+            <language>en</language>
+            <name>x_843001_final_app_order_line</name>
+            <plural>totals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-27 09:32:40</sys_created_on>
+            <sys_id>de280c849785511026dadb24a253aff0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>total</sys_name>
+            <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+            <sys_update_name>sys_documentation_x_843001_final_app_order_line_total_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-27 09:32:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

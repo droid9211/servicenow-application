@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer" max_length="40" name="x_843001_final_app_customer" sizeclass="5" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="encode_utf8=false" display="true" label="Recently added addresses" max_length="32" name="u_recently_added_addresses" reference="x_843001_final_app_address" type="glide_list"/>
+        <element label="Surname" max_length="40" name="u_surname" type="string"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_recently_added_addresses"/>
+        </index>
+    </element>
+</database>

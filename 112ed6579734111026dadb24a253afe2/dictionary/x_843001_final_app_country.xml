@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Country" max_length="40" name="x_843001_final_app_country" sizeclass="254" type="collection">
+        <element label="Alpha-2 code" max_length="40" name="alpha_two_code" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Alpha-3 code" max_length="40" name="u_alpha_3_code" type="string"/>
+        <element label="Country code" max_length="40" name="u_country_code" type="string"/>
+        <element display="true" label="Country" max_length="90" name="u_country_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

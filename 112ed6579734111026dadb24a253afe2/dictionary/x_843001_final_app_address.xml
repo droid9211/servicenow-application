@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_843001_final_app_country" label="Address" max_length="40" name="x_843001_final_app_address" sizeclass="5" type="collection">
+        <element label="Alpha-2" max_length="40" name="alpha_2_code" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Longitude " max_length="40" name="longitude" type="string"/>
+        <element label="Postal code" max_length="40" name="postal" type="string"/>
+        <element label="Country" max_length="32" name="u_country" read_only="true" reference="x_843001_final_app_country" type="reference"/>
+        <element label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element label="Street" max_length="40" name="u_street" type="string"/>
+        <element display="true" label="No" max_length="40" name="u_street_num" type="string"/>
+        <index name="index">
+            <element name="u_country"/>
+        </index>
+    </element>
+</database>

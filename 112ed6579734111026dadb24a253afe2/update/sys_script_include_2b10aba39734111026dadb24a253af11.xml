@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_843001_final_app.restCalls</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>restCalls</name>
+        <script><![CDATA[var restCalls = Class.create();
+restCalls.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getCountryCode: function() {
+		
+        var username = this.getParameter('sysparm_firstName');
+		
+
+        try {
+			
+            var r = new sn_ws.RESTMessageV2('x_843001_final_app.countyInfo', 'GetCountry');
+            r.setStringParameterNoEscape('name', username);
+
+            var response = r.execute();
+            var responseBody = response.getBody();
+            var httpStatus = response.getStatusCode();
+            var parsedBody = JSON.parse(responseBody);
+            var countryId = parsedBody.country[0].country_id;
+
+            var gr = new GlideRecord('x_843001_final_app_country');
+             gr.addEncodedQuery("alpha_two_code=" + countryId);
+			gs.info('lili response:  ' + countryId);
+			
+            gr.query();
+
+            if (gr.next()) {
+                var grSysId = gr.getValue('sys_id');
+
+            }
+
+
+            return JSON.stringify({
+                "sys_id": grSysId,
+                "countryCode": countryId
+            });
+        } catch (ex) {
+            var message = ex.message;
+        }
+
+    },
+    getIpInfo: function() {
+        var userIP = gs.getSession().getClientIP().toString();
+        gs.info('User Ip:  ' + userIP);
+
+        try {
+            var r = new sn_ws.RESTMessageV2('x_843001_final_app.getIpInfo', 'GET info by IP');
+            r.setStringParameterNoEscape('ipaddress', userIP);
+
+            var response = r.execute();
+            var responseBody1 = response.getBody();
+            var httpStatus = response.getStatusCode();
+            return responseBody1;
+        } catch (ex) {
+            var message = ex.message;
+        }
+
+    },
+    type: 'restCalls'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 12:10:18</sys_created_on>
+        <sys_id>2b10aba39734111026dadb24a253af11</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>restCalls</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_script_include_2b10aba39734111026dadb24a253af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 14:20:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

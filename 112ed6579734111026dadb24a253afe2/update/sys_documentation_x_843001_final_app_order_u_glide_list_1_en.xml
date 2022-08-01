@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_glide_list_1" label="Related order lists" language="en" table="x_843001_final_app_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_list_1</element>
+            <help/>
+            <hint/>
+            <label>Related order lists</label>
+            <language>en</language>
+            <name>x_843001_final_app_order</name>
+            <plural>Related order lists</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-27 12:48:20</sys_created_on>
+            <sys_id>38f478449749511026dadb24a253af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Related order lists</sys_name>
+            <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+            <sys_update_name>sys_documentation_x_843001_final_app_order_u_glide_list_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-27 12:48:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

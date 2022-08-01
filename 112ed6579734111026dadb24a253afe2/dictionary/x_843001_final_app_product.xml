@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product" max_length="40" name="x_843001_final_app_product" sizeclass="4" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="price" max_length="40" name="price" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element choice="1" label="Category" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="u_hardware"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="u_software"/>
+                <element inactive_on_update="false" label="Service" sequence="2" value="u_service"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="u_other"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="200" name="u_description" type="string"/>
+        <element label="Other" max_length="80" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Price" max_length="40" name="u_price" type="string"/>
+        <element label="Product Image 1" max_length="40" name="u_product_image_1" type="user_image"/>
+        <element label="Product Image 2" max_length="40" name="u_product_image_2" type="user_image"/>
+        <element label="Product name" max_length="40" name="u_product_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

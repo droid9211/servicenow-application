@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Countries</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 12:59:26</sys_created_on>
+        <sys_id>3f44e61f9734111026dadb24a253af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Countries</sys_name>
+        <sys_package display_value="Final Application" source="x_843001_final_app">112ed6579734111026dadb24a253afe2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Final Application">112ed6579734111026dadb24a253afe2</sys_scope>
+        <sys_update_name>sys_ui_view_3f44e61f9734111026dadb24a253af4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 12:59:26</sys_updated_on>
+        <title>Countries</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
